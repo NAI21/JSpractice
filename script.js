@@ -60,19 +60,53 @@ var num = 50;
 //         console.log("Что-то пошло не так(((");
 //         break;
 // }
-do {
-    console.log(num);
-    num++;
-}   
-while (num < 55);
+// do {
+//     console.log(num);
+//     num++;
+// }   
+// while (num < 55);
 
-for (let i = 1; i < 8; i++) {
-    if (i == 6) {
-        continue;
-    }
-    console.log(i);
+// for (let i = 1; i < 8; i++) {
+//     if (i == 6) {
+//         continue;
+//     }
+//     console.log(i);
+// }
+// while (num != 12) {
+//     num--;
+//     console.log(num);
+// }
+
+// function showFirstMessage (text) {
+// alert(text);
+// num = 12;
+// }
+
+// showFirstMessage("Fuck Off");
+// console.log(num);
+
+
+// let calc = function (a,b) {
+//     return(a + b);
+// }
+
+let calc = (a,b) => a +b;
+
+console.log(calc(3,4));
+console.log(calc(8,4));
+
+function retVar () {
+    let num = 50;
+    return num;
 }
-while (num != 12) {
-    num--;
-    console.log(num);
-}
+
+let anotherNum = retVar();
+console.log(anotherNum);
+
+let str = "azamat";
+console.log(str.length);
+console.log(str.toUpperCase());
+
+let twelve = "12.2px";
+// console.log(Math.round(twelve));
+console.log(parseFloat(twelve));
