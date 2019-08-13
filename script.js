@@ -114,11 +114,16 @@
 //     alert(char); // H,e,l,l,o (char — сначала "H", потом "e", потом "l" и т. д.)
 //   }
 
-function doHomework(subject, callback) {
-    console.log(`Starting my ${subject} homework.`);
-    callback();
-  }
+// function doHomework(subject, callback) {
+//     console.log(`Starting my ${subject} homework.`);
+//     callback();
+//   }
   
-  doHomework('math', function() {
-    console.log('Finished my homework');
-  });
+//   doHomework('math', function() {
+//     console.log('Finished my homework');
+//   });
+var obj = {a:1, b:2, c:3};
+    
+for (var prop in obj) {
+  console.log(`obj.${prop} = ${obj[prop]}`);
+}
