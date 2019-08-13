@@ -33,7 +33,7 @@
 // let odin = true,
 //     dva = true;
 // console.log(odin && dva);
-var num = 50;
+// var num = 50;
 // if (num < 49) {
 //     console.log("Неверно!")
 // } else if (num > 100) {
@@ -103,9 +103,9 @@ var num = 50;
 // let anotherNum = retVar();
 // console.log(anotherNum);
 
-let str = "azamat";
-// console.log(str.length);
-console.log(str[0].toUpperCase());
+// let str = "azamat";
+// // console.log(str.length);
+// console.log(str[0].toUpperCase());
 
 // let twelve = "12.2px";
 // // console.log(Math.round(twelve));
@@ -113,3 +113,12 @@ console.log(str[0].toUpperCase());
 // for (let char of "Hello") {
 //     alert(char); // H,e,l,l,o (char — сначала "H", потом "e", потом "l" и т. д.)
 //   }
+
+function doHomework(subject, callback) {
+    console.log(`Starting my ${subject} homework.`);
+    callback();
+  }
+  
+  doHomework('math', function() {
+    console.log('Finished my homework');
+  });
