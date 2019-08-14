@@ -157,11 +157,22 @@
 // let i = arr.join('XY');
 // console.log(i);
 
-let arr = [3,15,6,2,24,1];
-let i = arr.sort(compareNum);
+// let arr = [3,15,6,2,24,1];
+// let i = arr.sort(compareNum);
 
-function compareNum(a,b) {
-return a-b;
-}
+// function compareNum(a,b) {
+// return a-b;
+// }
 
-console.log(arr);
+// console.log(arr);
+// let soldier = {
+// health : 21,
+// armor : 13
+// };
+//  let azamat = {
+//   health : 13
+//  };
+
+//  azamat.__proto__ = soldier;
+//  console.log(azamat);
+//  console.log(azamat.armor);
