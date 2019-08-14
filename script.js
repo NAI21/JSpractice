@@ -122,8 +122,46 @@
 //   doHomework('math', function() {
 //     console.log('Finished my homework');
 //   });
-var obj = {a:1, b:2, c:3};
+// var obj = {a:1, b:2, c:3};
     
-for (var prop in obj) {
-  console.log(`obj.${prop} = ${obj[prop]}`);
+// for (var prop in obj) {
+//   console.log(`obj.${prop} = ${obj[prop]}`);
+// }
+// let arr = [1,2,3,4,5,6];
+// arr.pop();
+// arr.push(6,7);
+// arr.shift();
+// arr.unshift("zero",1);
+// console.log(arr.length);
+
+// // for (let i=0; i<arr.length; i++) {
+// //   console.log(arr[i]);
+// // }
+
+// arr.forEach(function(item, i, mass) {
+//   console.log(`${i}: ${item} (массив: ${mass})`);
+// });
+
+// let mas = [1,2,3,4,5];
+
+// for (let key of mas){
+//   console.log(key);
+// }
+
+// let ans = prompt("","");
+// let arr = [];
+// arr = ans.split(',');
+// alert(arr);
+
+// let arr = ["aza", "mat", " super ", "macho!"];
+// let i = arr.join('XY');
+// console.log(i);
+
+let arr = [3,15,6,2,24,1];
+let i = arr.sort(compareNum);
+
+function compareNum(a,b) {
+return a-b;
 }
+
+console.log(arr);
