@@ -138,10 +138,12 @@
 // //   console.log(arr[i]);
 // // }
 
+// let ir = arr.map(Math.sqrt);
+
 // arr.forEach(function(item, i, mass) {
 //   console.log(`${i}: ${item} (массив: ${mass})`);
 // });
-
+// console.log(ir);
 // let mas = [1,2,3,4,5];
 
 // for (let key of mas){
@@ -153,18 +155,27 @@
 // arr = ans.split(',');
 // alert(arr);
 
-// let arr = ["aza", "mat", " super ", "macho!"];
+// let arr = ["aza", "mat", " is ", " super ", "macho!"];
 // let i = arr.join('XY');
 // console.log(i);
+// delete arr[1];
+// arr.splice(2,3,'suck','big','dicks');
+// console.log(arr.slice(1,3));
+// arr.reverse();
+// let arr1 = arr.concat('My', 'master');
+// console.log(arr1);
+// console.log(arr);
 
-// let arr = [3,15,6,2,24,1];
+
+// let arr = [3,15,6,2,24,100];
 // let i = arr.sort(compareNum);
 
 // function compareNum(a,b) {
 // return a-b;
 // }
-
 // console.log(arr);
+// console.log(i);
+
 // let soldier = {
 // health : 21,
 // armor : 13
@@ -176,3 +187,33 @@
 //  azamat.__proto__ = soldier;
 //  console.log(azamat);
 //  console.log(azamat.armor);
+
+
+// let ir = arr.every(elem=>elem<=10);
+// console.log(arr.length);
+
+// let arr = [[0, 1], [2, 3, [4, 5]]];
+// let are = function flattened(arr) {
+// if (Array.isArray) {
+//   return arr.reduce(function(done,curr){
+//     return done.concat(flattened(curr));
+//     });
+//   } else {
+//     return arr;
+//   }
+//   console.log(arr);
+
+// }
+// var arr = [12, 5, 8, 130, 44].filter(elem=>elem>=10);
+// console.log(arr);
+
+// ç = [[0, 1], [2, 3], [4, 5]].reduce(function(a, b) {
+//   return a.concat(b);
+// });
+// console.log(flattened);
+
+// var total = [0, 1, 2, 3].reduce((a, b) => a+b, 4);
+// console.log(total);
+
+
+
