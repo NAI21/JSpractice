@@ -192,16 +192,8 @@
 // let ir = arr.every(elem=>elem<=10);
 // console.log(arr.length);
 
-// let arr = [[0, 1], [2, 3, [4, 5]]];
-// let are = function flattened(arr) {
-// if (Array.isArray) {
-//   return arr.reduce(function(done,curr){
-//     return done.concat(flattened(curr));
-//     });
-//   } else {
-//     return arr;
-//   }
-//   console.log(arr);
+let arr1 = [[0, 1], [2, 3, [4, 5]]];
+
 
 // }
 // var arr = [12, 5, 8, 130, 44].filter(elem=>elem>=10);
@@ -212,8 +204,17 @@
 // });
 // console.log(flattened);
 
+function flattenDeep(arr1) {
+  return arr1.reduce((a, b) => Array.isArray(b) ?
+   a.concat(flattenDeep(b)) : a.concat(b), []);
+}
+flattenDeep(arr1);
+console.log(flattenDeep(arr1));
+
 // var total = [0, 1, 2, 3].reduce((a, b) => a+b, 4);
 // console.log(total);
 
-
+// let arr = [1, [2], [3, [[4]]]];
+// arr = arr.flat(10);
+// console.log(arr);
 
