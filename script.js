@@ -192,24 +192,23 @@
 // let ir = arr.every(elem=>elem<=10);
 // console.log(arr.length);
 
-let arr1 = [[0, 1], [2, 3, [4, 5]]];
 
 
 // }
 // var arr = [12, 5, 8, 130, 44].filter(elem=>elem>=10);
 // console.log(arr);
 
-// ç = [[0, 1], [2, 3], [4, 5]].reduce(function(a, b) {
+// let flattened = [[0, 1], [2, 3], [4, 5]].reduce(function(a, b) {
 //   return a.concat(b);
-// });
+// }, []);
 // console.log(flattened);
 
-function flattenDeep(arr1) {
-  return arr1.reduce((a, b) => Array.isArray(b) ?
-   a.concat(flattenDeep(b)) : a.concat(b), []);
-}
-flattenDeep(arr1);
-console.log(flattenDeep(arr1));
+// let arr1 = [[0, 1], [2, 3, [4, 5]]];
+// function flattenDeep(arr1) {
+//   return arr1.reduce((a, b) => Array.isArray(b) ?
+//    a.concat(flattenDeep(b)) : a.concat(b), []);
+// }
+// console.log(flattenDeep(arr1));
 
 // var total = [0, 1, 2, 3].reduce((a, b) => a+b, 4);
 // console.log(total);
