@@ -217,3 +217,25 @@
 // arr = arr.flat(10);
 // console.log(arr);
 
+// function hello () {
+//     console.log('Game Over!');
+// }
+// hello();
+
+// function hi () {
+//     console.log('Hello World!');
+// }
+// hi();
+
+// let arr = [1, 15, 4, 30, 42],
+//     i = arr.sort(compareNum);
+// function compareNum(a,b) {
+// return a-b;
+// }
+// console.log(arr);
+
+let a = function(){
+    alert("Fuuuuuuuck!");
+};
+a();
+a();
