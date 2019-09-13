@@ -234,8 +234,19 @@
 // }
 // console.log(arr);
 
-let a = function(){
-    alert("Fuuuuuuuck!");
-};
-a();
-a();
+let box = document.getElementById('box'),
+    btn = document.getElementsByTagName('button'),
+    circle = document.getElementsByClassName('circle'),
+    heart = document.querySelectorAll('.heart'),
+    firstHeart = document.querySelector('.heart');
+console.log(box);
+console.log(btn);
+console.log(btn[3]);
+console.log(circle);
+console.log(circle[1]);
+console.log(heart);
+console.log(heart[1]);
+console.log(firstHeart);
+
+
+
