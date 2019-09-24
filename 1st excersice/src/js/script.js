@@ -18,5 +18,8 @@ let startMesuringBtn = document.getElementById('start'),
     choosePercent = document.querySelector('.choose-percent'),
     yearValue = document.querySelector('.year-value'),
     monthValue = document.querySelector('.month-value'),
-    dayValue = document.querySelector('.day-value');
-console.log(dayValue);
+    dayValue = document.querySelector('.day-value'),
+    logo = document.querySelector('.title');
+    logo.style.fontSize = "2px";
+
+    // console.log(span);
